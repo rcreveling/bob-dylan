@@ -235,7 +235,7 @@ table.INFcontainer {
     margin-bottom: 15px;
     /*margin-top: 10px;*/
     margin-left: 45px;
-    width: 793px;
+    width: 92%;
     padding: 3px;
     justify-content: center;
     background-image: url("Images/WoodenBackground.jpeg");
@@ -253,6 +253,7 @@ table.INFcontainer {
 .ABTimages {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     max-width: 100%;
     width: auto;
     justify-content: space-evenly;
@@ -267,12 +268,13 @@ table.INFcontainer {
     width: 450px;
     height: auto;
     margin-bottom: 5px;
-   
+    box-sizing: content-box;
     justify-content: center;
     align-items: center;
     border-style: ridge;
     border-width: 3px;
     border-color: rgb(78, 41, 41);
+    
 }
 
 .fleximg2 {
@@ -315,10 +317,10 @@ table.INFcontainer {
     margin-left: 45px;
     height: 40px;
     width: 92%;
-
+    border-width: 2px;
     border-style: ridge;
     border-color: rgb(49, 39, 39);
-    padding: 5px;
+    padding: 3px;
     background-image: linear-gradient(to right, rgb(49, 39, 39), rgb(94, 94, 94)) ;
     text-shadow:
     -1px -1px 0 #000,
